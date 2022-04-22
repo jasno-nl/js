@@ -179,7 +179,7 @@ $(document).ready(function() {
   //Koppel een regex patroon van acceptabele codes aan het veld voor de garantie-code
   if ($("input[placeholder='Code op uw garantiekaart**']").exists()) {
     $("input[placeholder='Code op uw garantiekaart**']").parsley({
-    pattern: /^(JS|js|Js|jS)(\s|\s?)(12|13|14|15|16|17|18|19|20|21)(20|24)(\s|\s?)([0-9]{4})$/
+    pattern: /^(JS|js|Js|jS)(\s|\s?)(12|13|14|15|16|17|18|19|20|21|22|23)(20|24)(\s|\s?)([0-9]{4})$/
     });
   }
   //Koppel een bericht met verduidelijking voor het veld van de garantie-code bij foutieve invoer
